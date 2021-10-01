@@ -1,0 +1,44 @@
+object CommonForm: TCommonForm
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  ClientHeight = 480
+  ClientWidth = 645
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object bgrect: TRectangle
+    Align = Client
+    Fill.Color = xFFF5F4F4
+    Size.Width = 645.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+  end
+  object ToolBar1: TToolBar
+    Align = Bottom
+    Position.Y = 440.000000000000000000
+    Size.Width = 645.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnSave: TSpeedButton
+      Anchors = [akRight, akBottom]
+      Position.X = 474.000000000000000000
+      Position.Y = 8.000000000000000000
+      Text = 'Save'
+      OnClick = btnSaveClick
+    end
+    object btnClose: TSpeedButton
+      Anchors = [akRight, akBottom]
+      Position.X = 554.000000000000000000
+      Position.Y = 8.000000000000000000
+      Text = 'Close'
+      OnClick = btnCloseClick
+    end
+  end
+end

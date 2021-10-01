@@ -1,0 +1,19 @@
+# Huge kudos to all contributors to https://github.com/github/gitignore which is where 
+# this file came from.
+
+syntax: glob
+*.dcu
+*.~*
+*.local
+*.identcache
+__history
+*.drc
+*.map
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.so
+*.rsm
+*.apk
+bin/*

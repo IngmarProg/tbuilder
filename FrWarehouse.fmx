@@ -1,0 +1,125 @@
+object frameWarehouse: TframeWarehouse
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 0
+  object GroupBox1: TGroupBox
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.X = 8.000000000000000000
+    Position.Y = 4.000000000000000000
+    Size.Width = 670.000000000000000000
+    Size.Height = 457.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Uus ladu'
+    TabOrder = 0
+    object Label1: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Lao nimi'
+      TabOrder = 40
+    end
+    object edWarehousename: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 128.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label2: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Lao t'#252#252'p'
+      TabOrder = 39
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Position.X = 128.000000000000000000
+      Position.Y = 57.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label3: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 84.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Vastutaja'
+      TabOrder = 38
+    end
+    object Label4: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 108.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Staatus'
+      TabOrder = 37
+    end
+    inline frameAddress1: TframeAddress
+      Position.Y = 129.000000000000000000
+      Size.Width = 312.000000000000000000
+      Size.Height = 146.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+    object cmbSupervisor: TComboEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      ItemHeight = 21.000000000000000000
+      ItemIndex = -1
+      Position.X = 128.000000000000000000
+      Position.Y = 82.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 21.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object cmbStatus: TComboEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      ItemHeight = 21.000000000000000000
+      ItemIndex = -1
+      Position.X = 128.000000000000000000
+      Position.Y = 106.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 21.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object CalloutPanel1: TCalloutPanel
+      Padding.Top = 11.000000000000000000
+      Position.X = 320.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 136.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 43
+      TabStop = False
+      CalloutWidth = 23.000000000000000000
+      CalloutLength = 11.000000000000000000
+      object qrCode: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Position.X = 23.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

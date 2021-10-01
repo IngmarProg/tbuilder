@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4F79049E-5964-4700-B874-858B6A1C31A8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TBuilder.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Mobile\Mobile.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TBuilder">
+        <MSBuild Projects="TBuilder.dproj"/>
+    </Target>
+    <Target Name="TBuilder:Clean">
+        <MSBuild Projects="TBuilder.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TBuilder:Make">
+        <MSBuild Projects="TBuilder.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Mobile">
+        <MSBuild Projects="Mobile\Mobile.dproj"/>
+    </Target>
+    <Target Name="Mobile:Clean">
+        <MSBuild Projects="Mobile\Mobile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Mobile:Make">
+        <MSBuild Projects="Mobile\Mobile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TBuilder;Mobile"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TBuilder:Clean;Mobile:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TBuilder:Make;Mobile:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

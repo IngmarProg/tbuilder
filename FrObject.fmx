@@ -1,0 +1,143 @@
+inherited frameObject: TframeObject
+  Size.Width = 683.000000000000000000
+  Size.Height = 470.000000000000000000
+  object GroupBox1: TGroupBox [1]
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.X = 8.000000000000000000
+    Position.Y = 4.000000000000000000
+    Size.Width = 665.000000000000000000
+    Size.Height = 457.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Objekt'
+    TabOrder = 0
+    object Label1: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Objekti nimi'
+      TabOrder = 35
+    end
+    object edObjectName: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 128.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label3: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 206.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Projektijuht'
+      TabOrder = 34
+    end
+    inline frAddress: TframeAddress
+      Position.Y = 56.000000000000000000
+      Size.Width = 312.000000000000000000
+      Size.Height = 146.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object cmbProjectMgr: TComboEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 4
+      ItemHeight = 21.000000000000000000
+      ItemIndex = -1
+      Position.X = 128.000000000000000000
+      Position.Y = 205.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 21.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label4: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 254.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Ajav'#245'tu profiil'
+      TabOrder = 42
+    end
+    object cmbTimeProfile: TComboEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      ReadOnly = True
+      ItemHeight = 21.000000000000000000
+      ItemIndex = -1
+      Position.X = 128.000000000000000000
+      Position.Y = 253.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 21.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label5: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 278.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Staatus'
+      TabOrder = 41
+    end
+    object cmbStatus: TComboEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      ReadOnly = True
+      ItemHeight = 21.000000000000000000
+      ItemIndex = -1
+      Position.X = 128.000000000000000000
+      Position.Y = 277.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 21.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label6: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 302.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Kommentaarid'
+      TabOrder = 40
+    end
+    object mComments: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Anchors = [akLeft, akTop, akBottom]
+      Position.X = 128.000000000000000000
+      Position.Y = 302.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 147.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 45
+      Viewport.Width = 173.000000000000000000
+      Viewport.Height = 143.000000000000000000
+    end
+  end
+  object cmbObjectMgr: TComboEdit [2]
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    ItemHeight = 21.000000000000000000
+    ItemIndex = -1
+    Position.X = 136.000000000000000000
+    Position.Y = 233.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel [3]
+    Position.X = 32.000000000000000000
+    Position.Y = 234.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Objektijuht'
+    TabOrder = 36
+  end
+end

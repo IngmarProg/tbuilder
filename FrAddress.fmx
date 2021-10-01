@@ -1,0 +1,127 @@
+object frameAddress: TframeAddress
+  Size.Width = 312.000000000000000000
+  Size.Height = 146.000000000000000000
+  Size.PlatformDefault = False
+  object cmbCountry: TComboEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    ItemHeight = 19.000000000000000000
+    ItemIndex = -1
+    Position.X = 128.000000000000000000
+    Position.Y = 1.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblCountry: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 2.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Riik'
+    TabOrder = 11
+    TabStop = False
+  end
+  object lblCounty: TLabel
+    Position.X = 23.000000000000000000
+    Position.Y = 26.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Maakond'
+    TabOrder = 10
+    TabStop = False
+  end
+  object cmbCounty: TComboEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    ItemHeight = 19.000000000000000000
+    ItemIndex = -1
+    Position.X = 128.000000000000000000
+    Position.Y = 25.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblCity: TLabel
+    Position.X = 23.000000000000000000
+    Position.Y = 50.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Linn / Vald'
+    TabOrder = 9
+    TabStop = False
+  end
+  object cmbCountyCity: TComboEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    ItemHeight = 19.000000000000000000
+    ItemIndex = -1
+    Position.X = 128.000000000000000000
+    Position.Y = 49.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblStreet: TLabel
+    Position.X = 23.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'K'#252'la / T'#228'nav'
+    TabOrder = 8
+    TabStop = False
+  end
+  object cmbStreet: TComboEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    ItemHeight = 19.000000000000000000
+    ItemIndex = -1
+    Position.X = 128.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblHouse: TLabel
+    Position.X = 23.000000000000000000
+    Position.Y = 98.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Maja nr'
+    TabOrder = 7
+    TabStop = False
+  end
+  object edHousenr: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 128.000000000000000000
+    Position.Y = 97.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 23.000000000000000000
+    Position.Y = 125.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Korteri nr'
+    TabOrder = 6
+    TabStop = False
+  end
+  object edFlat: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 128.000000000000000000
+    Position.Y = 123.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

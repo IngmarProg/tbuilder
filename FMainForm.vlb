@@ -1,0 +1,10 @@
+﻿[split]
+Coordinates=10,10,40,36
+
+[pnlLeft]
+Coordinates=60,10,53,36
+Visible=True
+
+[]
+Coordinates=59,1,91,36
+
